@@ -1,0 +1,27 @@
+.about-container {
+  max-width: 800px;
+  margin: 20rem auto 30rem auto;
+  text-align: justify;
+  color: #fff;
+  text-shadow: -10px 10px 10px rgb(0, 0, 0);
+  line-height: 1.8;
+  font-size: 1.4rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 70px;
+}
+
+.about-container > img {
+  width: 18rem;
+  height: 16rem;
+  margin-left: -150px;
+  filter: brightness(120%) contrast(150%) grayscale(180%);
+  box-shadow: 0 0 100px 2px rgba(255, 255, 255, 0.527);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}

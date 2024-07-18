@@ -1,0 +1,67 @@
+#gallery-container #gallery {
+  --m: 1;
+  --g: 12rem;
+  display: grid;
+  gap: var(--g);
+  width: 50%;
+  border-radius: 40rem;
+  margin: 10rem auto 50rem auto;
+  padding: 15rem;
+  grid-template-columns: repeat(var(--m), 100%);
+  background: repeating-radial-gradient(
+    closest-side at 20% 80%,
+    rgba(0, 255, 255, 0.408),
+    rgba(3, 129, 232, 0.392)
+  );
+  box-shadow: 0 0 100px 10px rgba(0, 255, 255, 0.408);
+  -webkit-border-radius: 40rem;
+  -moz-border-radius: 40rem;
+  -ms-border-radius: 40rem;
+  -o-border-radius: 40rem;
+}
+
+#gallery-container #gallery #img-wrapper {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+#gallery-container #gallery #img-wrapper img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 5px 5px rgb(0, 0, 0);
+}
+
+#img-list-title {
+  font-size: 2.2rem;
+  font-family: chango;
+  margin: -180px auto -20rem auto;
+  text-align: center;
+  color: #fff;
+  text-shadow: -10px 20px 10px black;
+  background-color: transparent;
+  letter-spacing: 5px;
+  max-width: 50%;
+}
+::-webkit-scrollbar {
+  width: 0.8rem;
+  box-shadow: 0 0 2px 40px rgba(#000000, 0.5);
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(
+    69.7deg,
+    rgba(244, 37, 243, 1) 1.4%,
+    rgba(244, 87, 1, 1) 36.2%,
+    rgba(255, 204, 37, 1) 72.2%,
+    rgba(20, 196, 6, 1) 113%
+  );
+  border-radius: 100px;
+  height: 15rem;
+}

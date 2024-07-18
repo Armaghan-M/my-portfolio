@@ -1,0 +1,204 @@
+.landing-container {
+  width: 100%;
+  height: 100vh;
+}
+.landing-img-2 {
+  width: 36rem;
+  height: 36rem;
+  margin: -60px auto 0 auto;
+}
+
+.landing-img {
+  background-image: url("/public/images/astro-3.webp");
+  background-size: cover;
+  background-repeat: none;
+  width: 20rem;
+  height: 20rem;
+  filter: contrast(200%) saturate(150%);
+  -webkit-filter: contrast(200%) saturate(150%);
+  position: sticky;
+  z-index: 2;
+}
+.landing-img-mobile {
+  background-image: url("/public/images/astro-3.webp");
+  background-size: cover;
+  background-repeat: none;
+  width: 10rem;
+  height: 10rem;
+  filter: contrast(200%) saturate(150%);
+  -webkit-filter: contrast(200%) saturate(150%);
+  position: sticky;
+  z-index: 2;
+  display: none;
+}
+.landing-img-2 {
+  background-image: url("/public/images/galaxy-3.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: sticky;
+  z-index: 1;
+  filter: contrast(220%);
+  -webkit-filter: contrast(220%);
+}
+
+#meteor {
+  width: 3rem;
+  height: 3rem;
+  filter: contrast(130%) brightness(160%);
+  -webkit-filter: contrast(130%) brightness(160%);
+  position: sticky;
+  z-index: 3;
+}
+
+.landing-text {
+  letter-spacing: 2px;
+  width: 70%;
+  font-family: chango;
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 100;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.landing-text span {
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.349);
+  font-style: italic;
+  display: inline-block;
+  background-image: linear-gradient(
+    85deg,
+    #eeff00,
+    hsl(327, 100%, 74%),
+    rgb(0, 255, 213)
+  );
+  background-clip: text;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  animation: smoky 3s 2s both;
+  -webkit-animation: smoky 3s 2s both;
+}
+
+.landing-text > h1 {
+  font-size: 3.2rem;
+  line-height: 1.8;
+}
+
+.landing-text > h3 {
+  font-size: 2rem;
+}
+
+span:nth-child(even) {
+  animation-name: smoky-mirror;
+}
+
+@keyframes smoky {
+  20% {
+    text-shadow: 0 0 40px rgb(255, 255, 255);
+  }
+  90% {
+    transform: translate3d(1.2rem, -1rem, 0) rotate(0deg) skewX(10deg)
+      scale(1.2);
+    text-shadow: 0 0 20px rgb(255, 255, 255);
+    opacity: 0;
+    -webkit-transform: translate3d(1.2rem, -1rem, 0) rotate(0deg) skewX(10deg);
+    -moz-transform: translate3d(1.2rem, -1rem, 0) rotate(0deg) skewX(10deg);
+    -ms-transform: translate3d(1.2rem, -1rem, 0) rotate(0deg) skewX(10deg);
+    -o-transform: translate3d(1.2rem, -1rem, 0) rotate(0deg) skewX(10deg);
+  }
+}
+
+@keyframes smoky-mirror {
+  20% {
+    text-shadow: 0 0 40px rgb(255, 255, 255);
+  }
+  90% {
+    transform: translate3d(1.6rem, -1rem, 0) rotate(5deg) skewX(10deg)
+      scale(1.4);
+    text-shadow: 0 0 20px rgb(255, 255, 255);
+    opacity: 0;
+    -webkit-transform: translate3d(1.6rem, -1rem, 0) rotate(5deg) skewX(10deg)
+      scale(1.4);
+    -moz-transform: translate3d(1.6rem, -1rem, 0) rotate(5deg) skewX(10deg)
+      scale(1.4);
+    -ms-transform: translate3d(1.6rem, -1rem, 0) rotate(5deg) skewX(10deg)
+      scale(1.4);
+    -o-transform: translate3d(1.6rem, -1rem, 0) rotate(5deg) skewX(10deg);
+  }
+}
+span:nth-of-type(1) {
+  animation-delay: 3.1s;
+}
+span:nth-of-type(2) {
+  animation-delay: 3.2s;
+}
+span:nth-of-type(3) {
+  animation-delay: 3.3s;
+}
+span:nth-of-type(4) {
+  animation-delay: 3.4s;
+}
+span:nth-of-type(5) {
+  animation-delay: 3.5s;
+}
+span:nth-of-type(6) {
+  animation-delay: 3.6s;
+}
+span:nth-of-type(7) {
+  animation-delay: 3.7s;
+}
+span:nth-of-type(8) {
+  animation-delay: 3.8s;
+}
+span:nth-of-type(9) {
+  animation-delay: 3.9s;
+}
+span:nth-of-type(10) {
+  animation-delay: 4s;
+}
+span:nth-of-type(11) {
+  animation-delay: 4.1s;
+}
+span:nth-of-type(12) {
+  animation-delay: 4.2s;
+}
+span:nth-of-type(13) {
+  animation-delay: 4.3s;
+}
+span:nth-of-type(14) {
+  animation-delay: 4.4s;
+}
+span:nth-of-type(15) {
+  animation-delay: 4.5s;
+}
+span:nth-of-type(16) {
+  animation-delay: 4.6s;
+}
+span:nth-of-type(17) {
+  animation-delay: 4.7s;
+}
+span:nth-of-type(18) {
+  animation-delay: 4.8s;
+}
+span:nth-of-type(19) {
+  animation-delay: 4.9s;
+}
+span:nth-of-type(20) {
+  animation-delay: 5s;
+}
+span:nth-of-type(21) {
+  animation-delay: 5.1s;
+}
+span:nth-of-type(22) {
+  animation-delay: 5.2s;
+}
+span:nth-of-type(23) {
+  animation-delay: 5.3s;
+}
+span:nth-of-type(24) {
+  animation-delay: 5.4s;
+}

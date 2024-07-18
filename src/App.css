@@ -1,0 +1,5 @@
+.App {
+  background: rgb(0, 35, 39) url(../public/images/bg-3.webp) no-repeat fixed
+    center;
+  background-size: cover;
+}
